@@ -1,0 +1,22 @@
+/target/
+.env
+hdcontext-report*.json
+
+# Local credentials and app data
+.env.*
+!.env.example
+settings.json
+/scans/
+/recordings/
+/exports/
+*.log
+
+# Personal recordings and generated media
+*.mp4
+*.mkv
+*.mov
+*.webm
+*.avi
+*.m4v
+*.wav
+*.mp3
